@@ -12,6 +12,20 @@ Prerequisites:
 
 Install STEP.exense: https://step.exense.ch/knowledgebase/3.18/getting-started/quick-setup/
 Install NodeJs: https://nodejs.org/en/about/releases/
+Install JDK 11: https://www.oracle.com/cis/java/technologies/javase/jdk11-archive-downloads.html
+Install MongoDB: https://www.mongodb.com/docs/manual/installation/
+
+
+Before running the test:
+
+Create a basic MongoDB Instance, folook here for the information on how to do that: https://medium.com/stackfame/run-mongodb-as-a-service-in-windows-b0acd3a4b712
+
+Open the startController.bat file from the step controller folder with any text editor.
+After that, set up the JAVA_PATH variable according to the example given in the bat file.
+
+Set up JAVA_HOME environment variable, look here for the information on how to do that: https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
+
+
 
 How to run the test:
 
@@ -26,6 +40,4 @@ After the tests are passed, left-click on a scenario to open logs
 By hovering your mouse over assertions in the executions logs you can visually verify the validity of the test by
 looking at a snapshot of Cypress in that moment.
 
-Support
 
-If you have any questions, please write to: sholomitskyiv@gmail.com
