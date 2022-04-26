@@ -11,8 +11,11 @@ to verify the tab is loaded
 ## Prerequisites:
 
 Install [STEP.exense](https://step.exense.ch/knowledgebase/3.18/getting-started/quick-setup/)
+
 Install [NodeJs](https://nodejs.org/en/about/releases/)
+
 Install [JDK 11](https://www.oracle.com/cis/java/technologies/javase/jdk11-archive-downloads.html)
+
 Install [MongoDB](https://www.mongodb.com/docs/manual/installation/)
 
 
@@ -32,8 +35,10 @@ Open the startController.bat file from step controller folder you downloaded whe
 
 Open the project folder with the IDE of your choice
 
-In the terminal type 
-./node_modules/.bin/cypress open 
+In the terminal type
+```java
+./node_modules/.bin/cypress open
+```
 and press enter.
 
 After some time the cypress will open and you will see the test list
@@ -44,6 +49,6 @@ After the tests are passed, left-click on a scenario to open logs
 By hovering your mouse over assertions in the executions logs you can visually verify the validity of the test by
 looking at a snapshot of Cypress in that moment.
 
-Support
+## Support
 
 If you have any questions, please write to: sholomitskyiv@gmail.com
