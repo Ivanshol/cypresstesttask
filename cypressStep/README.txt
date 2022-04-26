@@ -25,13 +25,20 @@ After that, set up the JAVA_PATH variable according to the example given in the 
 
 Set up JAVA_HOME environment variable, look here for the information on how to do that: https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
 
+To install cypress, open your project folder with your IDE and run this command:
+npm install cypress --save-dev
 
 
 How to run the test:
 
 Open the startController.bat file from step controller folder you downloaded when installing step.exense
+
 Open the project folder with the IDE of your choice
-In the terminal type ./node_modules/.bin/cypress open and press enter. 
+
+In the terminal type 
+./node_modules/.bin/cypress open 
+and press enter.
+
 After some time the cypress will open and you will see the test list
 
 In Cypress, open "step.spec.js" by left clicking, you will see the test running
@@ -40,4 +47,6 @@ After the tests are passed, left-click on a scenario to open logs
 By hovering your mouse over assertions in the executions logs you can visually verify the validity of the test by
 looking at a snapshot of Cypress in that moment.
 
+Support
 
+If you have any questions, please write to: sholomitskyiv@gmail.com
