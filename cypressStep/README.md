@@ -21,10 +21,10 @@ Install [MongoDB](https://www.mongodb.com/docs/manual/installation/)
 
 ## Before running the test:
 
-Create a basic MongoDB Instance, look [here](https://medium.com/stackfame/run-mongodb-as-a-service-in-windows-b0acd3a4b712) for the information on how to do that
+Create a basic MongoDB Instance, look [here](https://medium.com/stackfame/run-mongodb-as-a-service-in-windows-b0acd3a4b712) for the information on how to do that.
 Open the startController.bat file from the step controller folder with any text editor.
 After that, set up the JAVA_PATH variable according to the example given in the bat file.
-Set up JAVA_HOME environment variable, look [here](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html) for the information on how to do that
+Set up JAVA_HOME environment variable, look [here](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html) for the information on how to do that.
 
 To install cypress, open your project folder with your IDE and run this command:
 npm install cypress --save-dev
@@ -40,6 +40,7 @@ In the terminal type
 ./node_modules/.bin/cypress open
 ```
 and press enter.
+
 
 After some time the cypress will open and you will see the test list
 
