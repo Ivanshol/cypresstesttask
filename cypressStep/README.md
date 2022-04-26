@@ -41,10 +41,10 @@ In the terminal type
 ```
 and press enter.
 
-
 After some time the cypress will open and you will see the test list
 
 In Cypress, open "step.spec.js" by left clicking, you will see the test running
+
 After the tests are passed, left-click on a scenario to open logs
 
 By hovering your mouse over assertions in the executions logs you can visually verify the validity of the test by
